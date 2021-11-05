@@ -1,38 +1,124 @@
-.App {
+* {
+  margin-top: 0;
+  padding-top: 0px;
+  box-sizing: border-box;
+  /* font-family: 'Sansita Swashed', cursive; */
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.main-head {
+  text-align: center;
+  margin-top: 15px;
+}
+.std {
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  align-content: center;
+}
+.recHead {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.std-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  color: #212529;
+  margin-top: 0%;
+  background-color: #99adb8;
+  border-spacing: 1;
+  border-collapse: collapse;
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.border_error {
+  border: 1px solid red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.showError {
+  color: red;
+  margin-left: 0.5%;
+}
+.InputFeild {
+  width: 600px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.label_entry {
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Control_Panel {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin: 0px 230px 0px 230px;
+}
+.Btn_Primary {
   color: white;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0px 16px;
+  font-size: 17px;
+  border: red;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  
+  align-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.default {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 17px;
+  border: green;
+  padding: 5px;
 }
+.update {
+  color: white;
+  background-color: rgb(54, 145, 31);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  border: green;
+  padding: 5px;
+  width: 70px;
+}
+.edit {
+  font-size: 18px;
+  margin: 3px;
+  color: green;
+}
+.Del {
+  font-size: 18px;
+  margin: 3px;
+  color: red;
+}
+.view {
+  font-size: 18px;
+  margin:3px;
+  color: green;
+}
+.action_col {
+  flex-direction: row;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.heading {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding: 5px;
+}
+.table-div {
+  margin: 7px;
+}
+.input_rec {
+  font-size: 17px;
+  font-family: serif;
 }
